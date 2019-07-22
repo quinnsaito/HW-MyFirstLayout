@@ -1,0 +1,163 @@
+* {
+    margin: 0; 
+    padding: 0;
+  }
+
+  div#banner { 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    background-color: rgb(26, 85, 85); 
+    width: 100%; 
+  }
+  div#banner-content { 
+    width: 800px; 
+    margin: 0 auto; 
+    padding: 10px;
+
+  }
+  div#main-content { 
+    padding-top: 50px;
+    padding-left: 21%;
+}
+IMG.profile {
+    display: block;
+    height: 250px;
+    width: 250px; 
+   margin-left: auto;
+   margin-right: auto;
+ 
+
+}
+
+.flexcontainer {
+   width: 80%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   /*background-color: yellow;*/
+   padding-top: 40px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   margin-right: -50%;
+   transform: translate(-50%, -50%) 
+}
+
+.left {
+    display: block;
+    width: 350px;
+    height: 500px;
+    /*background-color: blue;*/
+
+}
+.right {
+    display: block;
+    width: 40%;
+    height: 500px;
+    /*background-color: green;*/
+
+}
+.middle {
+    display: inline-block;
+    width: 30px;
+    height: 500px;
+}
+.stats {
+    display: block;
+    height: 150px;
+    align-content: flex-end;
+    text-align: center;
+    /*padding-top: 100px;*/
+    /*background-color: fuchsia;*/
+    width: 350px;
+  
+}
+.image {
+    display: block;
+    height: 250px;
+    width: 350px;
+    /*background-color: green;*/
+   
+
+}
+
+.socials {
+    display: inline-block;
+    width: 100%;
+    height: 80px;
+    padding-top: 10px;
+    /*background-color: white;*/
+    text-align: center;
+}
+
+.social_img {
+    display: inline-block;
+   padding-left: 40px;
+   padding-right: 40px;
+   /*background-color: grey;*/
+   margin-left: auto;
+   margin-right: auto;
+   
+  
+}
+IMG.linkedin {
+    height: 60px;
+    width: 60px;
+    padding-right: 20px;
+}
+
+IMG.dribbble {
+    height: 60px;
+    width: 60px;
+    padding-right: 20px;
+}
+
+IMG.behance {
+    height: 60px;
+    width: 60px;
+}
+
+
+.spacer {
+    display: block;
+    height: 100px;
+}
+.topright {
+    display: block;
+    height: 200px;
+    position: relative;
+
+}
+.topbottom {
+    display: block;
+    height: 200px;
+ 
+}
+h2 {
+    font-family: brandon grotesque, Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color:  rgb(26, 85, 85);
+}
+p {
+    font-family: brandon grotesque, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    padding-top: 10px;
+    text-align: justify;
+
+}
+h1 {
+    font-family: Brandon grotesque, Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color:  rgb(26, 85, 85);
+}
+li {
+    font-family: brandon grotesque, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+ul {
+    font-family: brandon grotesque, Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: left;
+}
+
